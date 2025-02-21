@@ -1,29 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page 2</title>
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>IOT based Medical Reminder & Disease Detection System</title>
+  <meta name="title" content="IOT based Medical Reminder & Disease Detection System">
+  <meta name="description" content="A Computer Science portfolio.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
   <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
 </head>
-<body>
-  <header class="header">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
     <div class="container">
-      <a href="index.html" class="logo">Home</a>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="40" height="40" alt="Atharv home">
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/nav-logo.svg" width="140" height="40" alt="Atharv home" class="img">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Problem Statement</a>
+          </li>
+
+        </ul>
+
+        <p class="navbar-title">Reach out to us!</p>
+
+        <address class="navbar-text">
+          <ul class="social-list">
+
+            <li>
+              <a href="mailto: preet.taneja24@st.niituniversity.in" class="email-button">Mail</a>
+            </li>
+  
+          </ul>
+        </address>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
     </div>
   </header>
 
+
   <main>
-    <section class="section placeholder" id="placeholder2">
-      <div class="container">
-        <h2 class="h2 section-title">Front-end</h2>
-        <p>Frontend Working of the IoT-Based Health Monitor.</p>
-      </div>
-    </section>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Front-end:</h1>
+
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Android</strong>
+              <strong class="strong" data-letter-effect>iOS</strong>
+              <strong class="strong" data-letter-effect>Website</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="" class="shape">
+
+      </section>
+
   </main>
 
+  <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+        <div class="container">
+
+          <div class="portfolio-list">
+
+            <div class="wrapper">
+
+              <h2 class="h2 section-title" id="portfolio-label" data-reveal>Gallery:</h2>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                  <img src="./assets/images/portfolio-1.jpg" width="700" height="605" loading="lazy" alt="Portfolio"
+                    class="img-cover">
+                </figure>
+                </div>
+
+              </div>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;">
+                  <img src="./assets/images/portfolio-2.jpg" width="700" height="1091" loading="lazy" alt="Song System"
+                    class="img-cover">
+                </figure>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <img src="./assets/images/portfolio-shape.svg" width="286" height="232" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+<!-- 
+    - #FOOTER
+  -->
+
   <footer class="footer">
-    <p>IoT-Based Medical Reminder and Disease Detection System</p>
+
+    <div class="footer-top section" id="Say hello">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal></p>
+
+        <h2 class="h2 section-title" data-reveal>
+          
+        </h2>
+
+        <img src="./assets/images/footer-1.jpg" width="159" height="176" loading="lazy" alt="photography"
+          class="abs-img abs-img-1" data-reveal>
+
+        <img src="./assets/images/footer-2.jpg" width="265" height="275" loading="lazy" alt="photography"
+          class="abs-img abs-img-2" data-reveal>
+
+        <img src="./assets/images/footer-3.jpg" width="303" height="272" loading="lazy" alt="photography"
+          class="abs-img abs-img-3" data-reveal>
+
+        <img src="./assets/images/footer-4.jpg" width="175" height="175" loading="lazy" alt="photography"
+          class="abs-img abs-img-4" data-reveal>
+
+        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="40" height="40" loading="lazy" alt="Atharv home">
+        </a>
+
+        <ul class="social-list">
+          <li>
+            <a href="mailto: preet.taneja24@st.niituniversity.in" class="email-button">Mail Us!</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">IoT-Based Medical Reminder and Disease Detection System</p>
+
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy"
+        class="img-cover">
+    </div>
+
   </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
