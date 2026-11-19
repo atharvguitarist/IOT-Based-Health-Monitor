@@ -1,75 +1,76 @@
-# 🌐 Portfolio Website
+<div align="center">
 
-Welcome to my **Portfolio Website** repository! This project showcases my skills, projects, and experience using HTML, CSS, and JavaScript in a visually appealing and professional manner.
+# 🩺 IoT-Based Health Monitor
 
-## 📜 Table of Contents
+### Medical Reminder & Disease Detection System
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+*Real-time vitals monitoring, smart medication reminders and cloud analytics — so patients never miss a dose.*
 
-## 🌟 Introduction
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![IoT](https://img.shields.io/badge/IoT-Sensors-00E5FF)
 
-This Portfolio Website serves as a digital resume, highlighting my expertise, projects, and achievements. Whether you're a potential employer, collaborator, or simply curious about my work, this website provides a comprehensive overview of my capabilities.
-
-## 🚀 Features
-
-- **About Me:** Introduce myself and provide an overview of my background.
-- **Portfolio:** Showcase my projects with descriptions, technologies used, and links.
-- **Skills:** Highlight my technical skills and competencies.
-- **Contact Form:** Enable visitors to reach out to me directly through a contact form.
-- **Responsive Design:** Ensure optimal viewing experience across devices.
-
-## 🛠️ Installation
-
-### Steps
-
-1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/atharvguitarist/portfolio-website.git
-    cd portfolio-website
-    ```
-
-2. **Open the Website:**
-   Simply open the `index.html` file in your web browser to view the portfolio.
-
-## 🎯 Usage
-
-1. **Explore Sections:**
-   Navigate through different sections such as About Me, Portfolio, Skills, and Contact.
-
-2. **View Projects:**
-   Click on project links to view details, screenshots, and live demos (if available).
-
-3. **Contact Me:**
-   Use the contact form to send inquiries or messages directly to my email.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions for improving my portfolio or spot any issues, feel free to:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Enhance portfolio section'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-For any questions or collaborations, feel free to reach out:
-
-- **GitHub Issues:** [https://github.com/atharvguitarist/portfolio-website/issues](https://github.com/atharvguitarist/portfolio-website/issues)
-- **Email:** atharvg06@gmail.com
+</div>
 
 ---
 
-Thank you for visiting my Portfolio Website! I look forward to connecting with you and discussing potential opportunities.
+## 📖 Overview
+
+An IoT-based healthcare solution that helps individuals manage their health by monitoring vital signs in real time and providing medication reminders. It pairs a **smart pillbox** for precise dosage with **health-tracking sensors** and a **cloud platform** for data storage and analysis.
+
+## ✨ Key Features
+
+- 💊 **Smart pillbox** — compartment-level dosage control with scheduled medication reminders
+- ❤️ **Real-time vitals monitoring** — sensor-based tracking of key health parameters
+- ☁️ **Cloud data platform** — storage and analysis of patient health history
+- 🔔 **Alerts & reminders** — never miss a dose or an abnormal reading
+- 🌐 **Multi-platform front end** — website, Android and iOS touchpoints
+
+## 🗂️ Project Structure
+
+| File | Purpose |
+|---|---|
+| `index.html` | Main project site — introduction, applications, working, problem statement |
+| `frontend.html` | Front-end showcase (website / Android / iOS gallery) |
+| `backend.html` | Backend & architecture overview |
+| `style-guide.md` | Design tokens and styling conventions |
+
+## 🚀 View Locally
+
+```bash
+git clone https://github.com/atharvguitarist/IOT-Based-Health-Monitor.git
+cd IOT-Based-Health-Monitor
+# open index.html in your browser
+```
+
+## 👤 Author
+
+**Atharv Gupta** — [GitHub](https://github.com/atharvguitarist) · [LinkedIn](https://www.linkedin.com/in/atharvguitarist)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
